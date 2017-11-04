@@ -1,0 +1,50 @@
+.tour-info-list, .productora {
+    list-style: none;
+    color: #fff;
+    font: 10px $font-family-base;
+    padding: 0 0 0 20px;
+}
+.tour-info {
+    position: absolute;
+    bottom: 0;
+    padding-right: 18px;
+}
+.all-info {
+    background: rgba(0,0,0,0.5);
+    padding-right: 20px;
+}
+li {
+   letter-spacing: 1px;
+   line-height: 16px;
+   text-transform: uppercase;
+   list-style: none;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+@media screen and (min-width: 768px) {
+  li {
+    line-height: 34px;
+  }
+  .tour-info-list, .productora {
+    font-size: 20px;
+  }
+  .ticketmaster{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .tour, .tour-info{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .tour-info {
+    position: inherit;
+    top: 140px;
+  }
+}

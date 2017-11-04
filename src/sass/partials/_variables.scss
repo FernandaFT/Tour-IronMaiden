@@ -1,0 +1,29 @@
+// Fonts Variables
+
+$font-family-base: 'lato', sans-serif;
+$font-logo: 'metal_lordheavy';
+$font-album: 'the_book_of_souls_fontregular';
+
+@font-face {
+    font-family: 'the_book_of_souls_fontregular';
+    src: url('../../font/the_book_of_souls_font_v4.0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metal_lordheavy';
+    src:url('../../font/metal_lord_iron_maiden_font_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lato';
+    src:url('../../font/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

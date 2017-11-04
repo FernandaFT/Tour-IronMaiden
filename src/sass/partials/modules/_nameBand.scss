@@ -1,0 +1,31 @@
+.name-of-band {
+    font: 5em $font-logo;
+    text-align: center;
+    margin: 12px 0 0 0;
+    color: #fff;
+}
+.name-album {
+    font: 2em $font-album;
+    text-align: center;
+    margin: 5px 0 7px 0;
+    color: #fff;
+}
+.name-tour {
+    font: 1em $font-family-base;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+@media screen and (min-width: 768px) {
+    .name-of-band {
+        font-size: 8em;
+    }
+    .name-album {
+        font-size: 3em;
+    }
+    .name-tour {
+       font-size: 2em;
+        margin-top: 0;
+    }
+    
+}
